@@ -1,5 +1,11 @@
 function greatestToLeast(array) {
-  return array.sort(b - a);
+  //according to the solution how come we need to define the funtion again when we are working with the parent function... i wanted to start typeing out the instructions to do reverse chronoligcal
+  //return array.sort(b - a) {
+   // return b - a; 
+
+  return array.sort(function(a, b) {
+     return b - a;
+  });
 }
 
 /* From here down, you are not expected to
